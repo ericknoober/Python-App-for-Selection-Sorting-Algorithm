@@ -1,5 +1,5 @@
 # Python-App-for-Selection-Sorting-Algorithm
-title: SelectionSortApp
+Title: SelectionSortApp
 
 Demo Video:
 
