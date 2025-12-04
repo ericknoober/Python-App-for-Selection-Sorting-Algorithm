@@ -1,6 +1,7 @@
 def selectionSort(arr):
     length = len(arr)
-    
+
+    #loop through each pass
     for i in range(length):
 
         print(f"Pass#{i+1}:")
@@ -9,7 +10,8 @@ def selectionSort(arr):
         #tracks value
         min_value = arr[i]
         print(f"Minimum value is:{min_value}")
-        
+
+        #loop through array for each pass
         for j in range(i+1, length):
 
             #checks if current index is smaller than minimum value
@@ -30,7 +32,9 @@ def selectionSort(arr):
     
     return arr
 
+#putting user input into an array
 def userInput():
+    
     i = 1
     input_arr = []
     print("Create your array and input -1 to begin sorting.")
@@ -48,9 +52,11 @@ def userInput():
             input_arr.append(num)
             i+=1
         except (ValueError):
+            #prompt user if an invalid integer is entered
             print("Enter a valid integer.")
         
 
     print(selectionSort(input_arr))
 
+#run code
 userInput()
