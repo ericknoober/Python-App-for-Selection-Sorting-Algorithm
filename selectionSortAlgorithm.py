@@ -56,6 +56,7 @@ def userInput():
             print("Enter a valid integer.")
         
 
+    #print selection sort function in console
     print(selectionSort(input_arr))
 
 #run code
