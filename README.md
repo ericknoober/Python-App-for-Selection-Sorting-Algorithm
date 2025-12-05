@@ -13,4 +13,4 @@ Algorithm Design: The user would input an array and would be processed through m
 
 Steps to run:
 
-Hugging face link:
+Hugging face link: https://huggingface.co/spaces/ericknoober/SelectionSortApp
